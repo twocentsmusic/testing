@@ -281,9 +281,9 @@ var jsPsych = initJsPsych({
                 </div>
             </div>
         `,
-        choices:['End experiment and upload my data'],
+        choices:['End experiment and upload my responses'],
         on_finish: function(data) {
-            document.body.innerHTML += '<p>Please wait for your data to finish uploading before closing the browser window.</p>';
+            document.body.innerHTML += '<p>Please wait for your responses to finish uploading before closing the browser window.</p>';
         },
     }
     timeline.push(end2);
